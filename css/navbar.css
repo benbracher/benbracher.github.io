@@ -1,0 +1,15 @@
+nav {
+    font-family: warcraft;
+    font-size: 22px;
+    color: var(--dark-purple);
+}
+
+.navbar-brand {
+    color: white;
+    font-family: var(--font-three);
+}
+
+.nav-item a {
+    color: white;
+    font-family: var(--font-two);
+}

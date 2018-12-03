@@ -1,0 +1,8 @@
+body {
+    background: var(--dark-purple);
+}
+
+@font-face {
+    font-family: warcraft;
+    src: url(../assets/fonts/LifeCraft_Font.ttf);
+}
