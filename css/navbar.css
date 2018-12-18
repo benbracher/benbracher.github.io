@@ -1,10 +1,13 @@
 nav {
     font-family: warcraft;
-    font-size: 22px;
-    color: var(--dark-purple);
+    color: var(--darkpurple);
 }
 
-.navbar-brand {
+.navbar-nav{
+    text-align: right;
+}
+
+/* .navbar-brand {
     color: white;
     font-family: var(--font-three);
 }
@@ -12,4 +15,4 @@ nav {
 .nav-item a {
     color: white;
     font-family: var(--font-two);
-}
+} */
