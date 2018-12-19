@@ -2,16 +2,44 @@ body {
     background: var(--darkpurple);
 }
 
-.carousel-item {
-    height: 100vh;
-    min-height: 300px;
-    background: no-repeat center center scroll;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
+  .full-screen {
     background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
   }
   
+  .jumbotron {
+      vertical-align: center;
+  }
+
+  .carousel-caption{
+    display: inline-block;
+    height: 100%;
+    vertical-align:middle;
+  }
+
+  .carousel-inner{
+      position: relative;
+  }
+
+  #headShot {
+      margin-right: 0;
+  }
+  
+  .carousel-caption{
+    top: 25%;
+  }
+
+.fart{
+    height: 19em;
+}
+
+.card-image {
+    width: 100%;
+    height: 100%;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
 
 @font-face {
     font-family: warcraft;
