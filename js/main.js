@@ -20,7 +20,9 @@ $(window).on('resize', function (){
 });
 
 $(document).ready(function() {      
-  $('.carousel').carousel('pause');
+  $('.carousel').carousel({
+    interval: false
+  });
 });
 
 var contactform =  document.getElementById('contactform');
